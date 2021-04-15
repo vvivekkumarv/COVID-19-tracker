@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Covid-19 App</title>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+  </head>
+  <body>
+    <div class="d-flex flex-column align-content-center">
+      <br />
+      <br />
+      <center><h1>Covid-19 Statistics</h1></center>
+      <br />
+      <center><img src="https://image.freepik.com/free-vector/couple-professionals-analyzing-graphs_74855-4393.jpg" width="400px" ></center>
+      <br/>
+      <form
+        action="/searchCountry"
+        method="GET"
+        class="mt-5 justify-content-center d-flex"
+      >
+        <input
+          type="text"
+          class="form-control w-25"
+          placeholder="Enter the country name"
+          name="country"
+        />
+        <button class="ml-3 text-center btn btn-success">Search Country</button>
+      </form>
+    </div>
+  </body>
+</html>
